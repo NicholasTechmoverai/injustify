@@ -1,5 +1,5 @@
-// export const BASE_URL = "https://dragon-brief-mayfly.ngrok-free.app";
-export const BASE_URL = "http://127.0.0.1:8000";
+export const BASE_URL = "https://dragon-brief-mayfly.ngrok-free.app";
+// export const BASE_URL = "http://127.0.0.1:8000";
 
 
 export const AUTH_WITH_GOOGLE = `${BASE_URL}/api/login/google`;

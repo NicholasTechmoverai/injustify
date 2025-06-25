@@ -31,13 +31,14 @@ export default defineConfig({
     },
   },
 
-  // base: '/static/', // 👈 Crucial: ensures Vite generates correct asset URLs
-  base: '/', // 👈 Crucial: ensures Vite generates correct asset URLs
+  base: '/static/', // 👈 Crucial: ensures Vite generates correct asset URLs
+  // base: '/', // 👈 Crucial: ensures Vite generates correct asset URLs
 
   server: {
     proxy: {
       '/api': {
-        target: 'http://localhost:8000',
+        // target: 'http://localhost:8000',
+        target: 'https://dragon-brief-mayfly.ngrok-free.app',
         changeOrigin: true,
       },
     },
